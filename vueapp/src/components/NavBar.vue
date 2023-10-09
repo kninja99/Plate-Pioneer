@@ -4,7 +4,7 @@
       <MobileIcon @click="toggleMobileNav" />
     </button>
     <nav
-      class="fixed bg-black/50 right-0 top-0 py-14 h-[100lvh] w-[60%] z-[12] animate-slideLeftToRight sm:w-[40%] flex hidden flex-col md:bg-polar md:flex md:flex-row md:relative md:top-0 md:right-0 md:bg-dark-gray md:h-auto md:w-auto md:py-0 md:animate-[none]"
+      class="fixed bg-polar right-0 top-0 py-14 h-[100lvh] w-[60%] z-[12] shadow-[0_8px_5px_8px_rgba(0,0,0,0.3)] animate-slideLeftToRight sm:w-[40%] flex hidden flex-col md:bg-polar md:flex md:flex-row md:relative md:top-0 md:right-0 md:bg-dark-gray md:h-auto md:w-auto md:py-0 md:animate-[none] md:shadow-[none]"
     >
       <!-- should dynmically render nav btns based off props (TODO)-->
       <NavBtn text="About" link="{ path: '/', hash: '#about' }" />

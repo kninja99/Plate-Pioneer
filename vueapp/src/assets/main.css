@@ -17,4 +17,9 @@ body {
     font-family: 'Inter', sans-serif;
     font-family: 'Kreon', serif;
     background-color: #f4f9fd;
+    height: 100vh;
+}
+
+#app {
+    height: 100%;
 }

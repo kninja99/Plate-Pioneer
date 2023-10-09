@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  content: [
+    './public/**/*.html',
+    './src/**/*.{vue,js,ts,jsx,tsx}',
+    './views/*.vue',
+  ],
   theme: {
     colors: {
       black: '#010101',
@@ -14,6 +18,7 @@ module.exports = {
       'blue-lagoon': '#027788',
       mud: '#bb8652',
       green: '#449E48',
+      'green-hover': '#409744',
     },
     extend: {
       keyframes: {
